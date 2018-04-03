@@ -1,0 +1,36 @@
+﻿@using System.Xml.Linq;
+
+@model Flights
+@{
+    ViewData["Title"] = "Flights";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Flight number</th>
+            <th>Aircraft</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>STD</th>  
+            <th>ETD</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (XElement item in Model.Flighlist.Descendants(Model.XMLns + "flight"))
+        {
+        <tr>
+            <td>@item.Descendants(Model.XMLns + "call_sign_code")?.First().Value @item.Descendants(Model.XMLns + "number")?.First().Value</td>
+            <td>@item.Descendants(Model.XMLns + "aircraft_reg")?.First().Value</td>
+            <td>@item.Descendants(Model.XMLns + "apt_dep")?.First().Descendants(Model.XMLns + "iata")?.First().Value</td>
+            <td>@item.Descendants(Model.XMLns + "apt_arr_actual")?.First().Descendants(Model.XMLns + "iata")?.First().Value</td>
+            <td>@DateTime.Parse(item.Descendants(Model.XMLns + "std")?.First().Value).ToString("ddMMM HH:mm", Model.EnUS)</td>
+            <td>@DateTime.Parse(item.Descendants(Model.XMLns + "revised_departure")?.First().Value).ToString("ddMMM HH:mm", Model.EnUS)</td>
+        </tr>
+        }
+    </tbody>
+</table>
+        
+

@@ -1,0 +1,12 @@
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\bin\Debug\netcoreapp2.0\OnlineDatabase.deps.json
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\bin\Debug\netcoreapp2.0\OnlineDatabase.runtimeconfig.json
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\bin\Debug\netcoreapp2.0\OnlineDatabase.runtimeconfig.dev.json
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\bin\Debug\netcoreapp2.0\OnlineDatabase.dll
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\bin\Debug\netcoreapp2.0\OnlineDatabase.pdb
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\obj\Debug\netcoreapp2.0\OnlineDatabase.csproj.CoreCompileInputs.cache
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\obj\Debug\netcoreapp2.0\OnlineDatabase.AssemblyInfoInputs.cache
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\obj\Debug\netcoreapp2.0\OnlineDatabase.AssemblyInfo.cs
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\obj\Debug\netcoreapp2.0\OnlineDatabase.dll
+c:\users\isafin\source\repos\OnlineDatabase\OnlineDatabase\obj\Debug\netcoreapp2.0\OnlineDatabase.pdb
+C:\Users\isafin\source\repos\OnlineDatabase\OnlineDatabase\obj\Debug\netcoreapp2.0\OnlineDatabase.csprojResolveAssemblyReference.cache
